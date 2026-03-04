@@ -59,7 +59,8 @@ Model performance is evaluated using the concordance index (C-index) to assess w
 performance assessed using the C-index.
 The results obtained represent:
 i) signature plot that represents the selected taxa with their respective coefficient:
-
+![image alt](https://github.com/AliHajj20/TreeSE_Cox_APLR/blob/ffa2f56e788bcfdfed7b5c96ec32f1b5292ba527/Signature_Plot.png)
 ii) risk score plot that represents the risk score of each taxa:
-
+![image alt](https://github.com/AliHajj20/TreeSE_Cox_APLR/blob/ffa2f56e788bcfdfed7b5c96ec32f1b5292ba527/Microbial_RiskScore.png)
 iii) Kaplan–Meier survival can be generated separately using the plot_survival() function, Kaplan–Meier survival curve illustrating the probability of survival among participants, stratified by their microbial risk score. Participants are divided into two groups: those with a high microbial risk score (red) and those with a low microbial risk score (blue). The x-axis represents time, while the y-axis shows the survival probability. 
+![image alt](https://github.com/AliHajj20/TreeSE_Cox_APLR/blob/ffa2f56e788bcfdfed7b5c96ec32f1b5292ba527/Survival_Plot.png)
