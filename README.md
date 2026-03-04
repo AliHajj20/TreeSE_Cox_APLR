@@ -36,7 +36,7 @@ Evaluation Metric: Harrell's Concordance Index (C-index)
 
 This project builds on and extends the supplementary analysis from the article
 “Microbiome compositional data analysis for survival studies”
-([paper](uhttps://pmc.ncbi.nlm.nih.gov/articles/PMC11044448/rl) | [code]([url](https://zenodo.org/records/10554488)))
+([paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11044448/) | [code](https://zenodo.org/records/10554488))
 
 After independently reproducing the supplementary analysis, the goal of this project was to evaluate how specific methodological choices influence Cox proportional hazards model performance in microbiome survival studies.
 ###Specifically, this project investigates:
