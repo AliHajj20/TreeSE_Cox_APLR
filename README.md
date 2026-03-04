@@ -11,24 +11,28 @@ Additionally, users should install any remaining R packages listed at the beginn
 
 ## Project Context 
 Master’s Thesis Research 
+
 Master’s Program: Molecular Biology and Genetics 
+
 University: University of Pavia 
+
 Location: Turku Data Science Group, Turku, Finland
 
 --
 
 ## Data Description
-Data Type: Survival data from a microbiome study
-Source: Public dataset
-Data File: biom.Rdata (included in this repository)
-Data Structure: TreeSummarizedExperiment object
-No additional data preprocessing is required beyond what is implemented in the analysis scripts.
+
+- **Data Type:** Survival data from a microbiome study  
+- **Source:** Public dataset  
+- **Data File:** biom.Rdata (included in this repository)  
+- **Data Structure:** TreeSummarizedExperiment object  
+- **Preprocessing:** No additional data preprocessing is required beyond what is implemented in the analysis scripts.
 
 --
 
 ## Methods:
-Statistical Model: Cox Proportional Hazards Model
-Evaluation Metric: Harrell's Concordance Index (C-index)
+Statistical Model: Cox Proportional Hazards Model  
+Evaluation Metric: Harrell's Concordance Index (C-index)  
 
 --
 
@@ -49,7 +53,7 @@ After independently reproducing the supplementary analysis, the goal of this pro
 ### Data structure
 1- Original study: phyloseq
 2- This project: TreeSummarizedExperiment
-### Model evaluation strategy
+### Workflow
 1- Original study: No explicit training/testing split
 2- This project: Explicit train–test split to assess generalization performance
 Model performance is evaluated using the concordance index (C-index) to assess whether these methodological differences affect predictive performance.
