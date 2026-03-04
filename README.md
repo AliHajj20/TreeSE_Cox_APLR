@@ -6,28 +6,32 @@ To facilitate reproducibility, this project relies on a Docker image that includ
 https://microbiome.github.io/OMA/docs/devel/pages/session_info.html#sec-docker-image
 
 Additionally, users should install any remaining R packages listed at the beginning of the script if they are not already installed.
-
-2. The data on which the analysis is performed can be found in this repository "biom.Rdata".
-
 --
-Project Context 
+
+## Project Context 
 Master’s Thesis Research 
 Master’s Program: Molecular Biology and Genetics 
 University: University of Pavia 
 Location: Turku Data Science Group, Turku, Finland
+
 --
-Data Description
+
+## Data Description
 Data Type: Survival data from a microbiome study
 Source: Public dataset
 Data File: biom.Rdata (included in this repository)
 Data Structure: TreeSummarizedExperiment object
 No additional data preprocessing is required beyond what is implemented in the analysis scripts.
+
 --
-Methods:
+
+## Methods:
 Statistical Model: Cox Proportional Hazards Model
 Evaluation Metric: Harrell's Concordance Index (C-index)
+
 --
-##Analysis Goal
+
+## Analysis Goal
 
 This project builds on and extends the supplementary analysis from the article
 “Microbiome compositional data analysis for survival studies”
@@ -38,15 +42,19 @@ After independently reproducing the supplementary analysis, the goal of this pro
 1- The impact of the data structure used to store microbiome data
 2- The effect of introducing a train–test split, where models are trained on a training subset and evaluated on an unseen testing subset
 
-###Key differences from the original study
-####Data structure
+--
+
+## Key differences from the original study
+### Data structure
 1- Original study: phyloseq
 2- This project: TreeSummarizedExperiment
-####Model evaluation strategy
+### Model evaluation strategy
 1- Original study: No explicit training/testing split
 2- This project: Explicit train–test split to assess generalization performance
 Model performance is evaluated using the concordance index (C-index) to assess whether these methodological differences affect predictive performance.
+
 --
+
 performance assessed using the C-index.
 The results obtained represent:
 i) signature plot that represents the selected taxa with their respective coefficient:
