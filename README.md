@@ -6,6 +6,7 @@ To facilitate reproducibility, this project relies on a Docker image that includ
 https://microbiome.github.io/OMA/docs/devel/pages/session_info.html#sec-docker-image
 
 Additionally, users should install any remaining R packages listed at the beginning of the script if they are not already installed.
+
 --
 
 ## Project Context 
