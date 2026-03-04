@@ -39,7 +39,7 @@ This project builds on and extends the supplementary analysis from the article
 ([paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11044448/) | [code](https://zenodo.org/records/10554488))
 
 After independently reproducing the supplementary analysis, the goal of this project was to evaluate how specific methodological choices influence Cox proportional hazards model performance in microbiome survival studies.
-###Specifically, this project investigates:
+### Specifically, this project investigates:
 1- The impact of the data structure used to store microbiome data
 2- The effect of introducing a train–test split, where models are trained on a training subset and evaluated on an unseen testing subset
 
